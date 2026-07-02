@@ -169,3 +169,5 @@ MIT License. Built for Devanagari & Nepali Document Digitization.
 - September release prep
 
 <!-- activity 1 -->
+
+<!-- activity 2 -->
