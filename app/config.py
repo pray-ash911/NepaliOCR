@@ -28,4 +28,4 @@ STREAMLIT_PORT = 8501
 
 # Updated log configurations
 
-# Updated log configurations
+# Updated log configuration
