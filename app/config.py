@@ -26,6 +26,6 @@ API_HOST = "127.0.0.1"
 API_PORT = 8000
 STREAMLIT_PORT = 8501
 
-# Updated log configuration
+# Updated log configurations
 
 # Updated log configuration
