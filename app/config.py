@@ -15,7 +15,7 @@ for path in [DATA_DIR, UPLOAD_DIR, OUTPUT_DIR, SAMPLE_DIR]:
     path.mkdir(parents=True, exist_ok=True)
 
 # OCR Configuration
-DEFAULT_LANGUAGES = ["ne", "hi"]  # Nepali and Hindi (Devanagari script)
+DEFAULT_LANGUAGES = ["ne", "hi"]  # Nepali and Hindi (Devanagari scripts)
 MAX_FILE_SIZE_MB = 25
 ALLOWED_EXTENSIONS = {".pdf"}
 
