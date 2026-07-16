@@ -147,3 +147,5 @@ python main.py test
 MIT License. Built for Devanagari & Nepali Document Digitization.
 
 - July feature update
+
+- July engine update
