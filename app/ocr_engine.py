@@ -4,7 +4,7 @@ import time
 import logging
 from typing import List, Dict, Any, Optional
 from PIL import Image
-import fitz  # PyMuPDF
+import fitz  # PyMuPDFs
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("NepaliOCREngine")
@@ -27,7 +27,7 @@ class NepaliOCREngine:
         if self._easyocr_reader is None:
             try:
                 import easyocr
-                logger.info("Initializing EasyOCR reader for languages: ['ne', 'hi']...")
+                logger.info("Initialize EasyOCR reader for languages: ['ne', 'hi']...")
                 self._easyocr_reader = easyocr.Reader(['ne', 'hi'], gpu=False)
                 logger.info("EasyOCR initialized successfully.")
             except Exception as e:
