@@ -4,7 +4,7 @@ import time
 import logging
 from typing import List, Dict, Any, Optional
 from PIL import Image
-import fitz  # PyMuPDFs
+import fitz  # PyMuPDF
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("NepaliOCREngine")
