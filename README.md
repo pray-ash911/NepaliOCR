@@ -149,3 +149,5 @@ MIT License. Built for Devanagari & Nepali Document Digitization.
 - July feature update
 
 - July engine update
+
+- July config tuning
