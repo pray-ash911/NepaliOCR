@@ -14,7 +14,7 @@ class DevanagariPostProcessor:
         # Common Devanagari Unicode Regex Ranges
         self.devanagari_char_pattern = re.compile(r'[\u0900-\u097F]')
         
-        # Precompiled regex patterns for performance
+        # Precompiled regex pattern for performance
         self.pipe_to_danda_pattern = re.compile(r'(?<=[\u0900-\u097F\s])\|(?=[\s\n]|$|[\u0900-\u097F])')
         self.repeated_danda_pattern = re.compile(r'।।+')
         
