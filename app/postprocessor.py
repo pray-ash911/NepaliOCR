@@ -7,7 +7,7 @@ class DevanagariPostProcessor:
     """
     Post-processing engine for Devanagari / Nepali OCR outputs.
     Cleans OCR noise, repairs broken Devanagari ligatures, normalizes Unicode,
-    and converts extracted raw text into structured Markdown documents.
+    and convert extracted raw text into structured Markdown documents.
     """
 
     def __init__(self):
