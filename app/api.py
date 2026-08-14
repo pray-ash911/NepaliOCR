@@ -19,7 +19,7 @@ app = FastAPI(
     description="Automated PDF Devanagari/Nepali Text Extractor & Post-Processing API"
 )
 
-# Enable CORS for frontend integrations
+# Enable CORS for frontend integration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
