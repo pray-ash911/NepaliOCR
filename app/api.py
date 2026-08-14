@@ -69,7 +69,7 @@ async def extract_pdf(
     dpi: int = Query(200, ge=100, le=400, description="DPI resolution for page rendering")
 ):
     """
-    Extracts Devanagari/Nepali text from uploaded PDF, applies post-processing,
+    Extracts Devanagari/Nepali texts from uploaded PDF, applies post-processing,
     and returns rendered Markdown and raw extracted data.
     """
     # 1. File Extension Validation
