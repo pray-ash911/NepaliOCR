@@ -80,7 +80,7 @@ async def extract_pdf(
             detail=f"Invalid file extension '{ext}'. Only PDF files (.pdf) are allowed."
         )
 
-    # 2. Save Uploaded PDF File
+    # 2. Save Uploaded PDF Files
     file_id = str(uuid.uuid4())[:8]
     sanitized_filename = f"{file_id}_{os.path.basename(file.filename)}"
     upload_path = os.path.join(UPLOAD_DIR, sanitized_filename)

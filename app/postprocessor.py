@@ -5,7 +5,7 @@ from typing import Dict, List, Any
 
 class DevanagariPostProcessor:
     """
-    Post-processing engine for Devanagari / Nepali OCR outputs.
+    Post-processing engine for Devanagari / Nepali OCR output.
     Cleans OCR noise, repairs broken Devanagari ligatures, normalizes Unicode,
     and convert extracted raw text into structured Markdown documents.
     """
