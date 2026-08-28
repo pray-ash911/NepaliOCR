@@ -11,7 +11,7 @@ from app.postprocessor import post_processor
 st.set_page_config(page_title="Nepali Devanagari PDF OCR", page_icon="🇳🇵", layout="wide")
 st.title("🇳🇵 Automated PDF Devanagari/Nepali Text Extractor")
 
-# Sidebar Configuration
+# Sidebar Configurations
 st.sidebar.header("⚙️ OCR & Processing Options")
 execution_mode = st.sidebar.radio("Processing Backend Mode", ["Direct Engine", "FastAPI HTTP Endpoint (/extract-pdf)"])
 engine_choice = st.sidebar.selectbox("OCR Engine", ["auto", "easyocr", "surya", "native"], index=0)
