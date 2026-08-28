@@ -2,7 +2,7 @@ import os
 import tempfile
 import httpx
 import streamlit as st
-import fitz  # PyMuPDF
+import fitz  # PyMuPDFs
 from PIL import Image
 from app.config import API_HOST, API_PORT
 from app.ocr_engine import ocr_engine
