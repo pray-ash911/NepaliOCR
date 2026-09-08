@@ -27,3 +27,5 @@ API_PORT = 8000
 STREAMLIT_PORT = 8501
 
 # Updated log configuration
+
+# Updated log configuration
