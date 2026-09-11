@@ -189,3 +189,5 @@ MIT License. Built for Devanagari & Nepali Document Digitization.
 - August postprocessing
 
 - September docs
+
+- September batching
