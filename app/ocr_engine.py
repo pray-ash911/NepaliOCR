@@ -235,3 +235,5 @@ class NepaliOCREngine:
 ocr_engine = NepaliOCREngine()
 
 # Optimized batch size
+
+# Optimized batch size
