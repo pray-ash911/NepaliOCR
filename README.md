@@ -163,3 +163,5 @@ MIT License. Built for Devanagari & Nepali Document Digitization.
 - September docs
 
 - September batching
+
+- September docker setup
