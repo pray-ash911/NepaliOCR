@@ -233,3 +233,5 @@ class NepaliOCREngine:
 
 # Global instance
 ocr_engine = NepaliOCREngine()
+
+# Optimized batch size
