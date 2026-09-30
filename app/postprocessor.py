@@ -211,3 +211,5 @@ class DevanagariPostProcessor:
 
 # Convenience instance
 post_processor = DevanagariPostProcessor()
+
+# Final formatting fix
